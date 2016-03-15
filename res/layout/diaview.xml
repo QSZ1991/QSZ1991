@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/loginForm"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="IP配置:"
+	android:textSize="10pt"
+	/>
+<EditText
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="58.215.202.186"
+	android:id="@+id/ipset"
+	android:selectAllOnFocus="true"
+	/>
+</TableRow>
+<TableRow>
+<TextView
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="端口配置:"
+	android:textSize="10pt"	
+	/>
+<EditText
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:id="@+id/portset"
+	android:text="8082"/>
+	/>
+</TableRow>
+</TableLayout>

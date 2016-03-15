@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    
+      <Button
+        android:id="@+id/btnRunRecord"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dip"
+        android:text="@string/btnrunrecord" />
+      <Button
+        android:id="@+id/btnCheckRecord"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:text="@string/btncheckrecord" />
+      <Button
+        android:id="@+id/btnCheckMap"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:text="检查数据统计图" />
+      <Button
+        android:id="@+id/btnWaterFlow"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dip"
+        android:text="处理水量分析" />
+
+</LinearLayout>

@@ -1,0 +1,1081 @@
+<?xml version="1.0" encoding="utf-8"?>
+<sdw.com.MoniterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+                              
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/rggeshan"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/ge_shan"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/lastTime"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montiter_lastTime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter_current"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/currentstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/montiter_currentstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__date"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/intervaldate"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montiter_intervaldate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__alarmaction0"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__alarm0"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/baoqiji"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_baoqiji"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/devicecontrol"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_devicecontrol"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqian"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/devicestate"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/moniter_devicestate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__alarmaction"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000"/>
+
+                    <Button
+                        android:id="@+id/montiter__alarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/wushuibang"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_wushuibang"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                         android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/devicecontrol"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_devicecontrol1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqian1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/devicestate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_devicestate1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__alarmaction1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__alarm1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/huiliubang"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_huiliubang"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/devicecontrol"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_devicecontrol2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqian2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/devicestate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_devicestate2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__alarmaction2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__alarm2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+             <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/temperature"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_temperature"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meter"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_meterT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqianZ"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meterstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_meterTstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__meteralarmaction"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__meterTalarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/ph"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_ph"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meter"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_meterph"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqian_ph"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meterstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_meterPHstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__meteralarmPH"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__meterPHalarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/orp"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_ORP"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meter"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_meterORP"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqianORP"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meterstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_meterORPstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__meteralarmORP"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__meterORPalarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/ls"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_LS"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meter"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_meterLS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqianLS"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meterstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_meterLSstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__meteralarmaLS"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__meterLSalarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/doMGL"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_DO"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meter"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_meterDO"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqianDO"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meterstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_meterDOstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__meteralarmDO"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+
+                    <Button
+                        android:id="@+id/montiter__meterDOalarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3.0dip"
+                        android:text="@string/removealarm"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+            </LinearLayout>
+               <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20.0dip"
+                android:layout_marginTop="10.0dip"
+                android:gravity="center"
+                android:text="@string/colum6"
+                android:textColor="#ff383838" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginRight="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:background="@drawable/regist_bg_circle"
+                android:orientation="vertical"
+                android:visibility="visible" >
+
+                <LinearLayout
+                    android:id="@+id/moniter_Flow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:layout_marginTop="5.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meter"
+                        android:textColor="#ff000000" />
+
+                    <TextView
+                        android:id="@+id/montier_meterFlow"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/moniter_dangqianFlow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/meterstate"
+                        android:textColor="#ff000000"/>
+
+                    <TextView
+                        android:id="@+id/moniter_meterFlowstate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.8000001dip"
+                    android:background="#ffe5e0d8" />
+
+                <LinearLayout
+                    android:id="@+id/montiter__meteralarmFlow"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35.0dip"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:layout_width="0dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="15.0dip"
+                        android:layout_weight="1.0"
+                        android:text="@string/alarm"
+                        android:textColor="#ff000000" />
+                     <TextView
+                        android:id="@+id/montiter__meterFlowalarm"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10.0dip"
+                        android:text="未设置"
+                        android:textColor="#ff8e8e8e"
+                        android:textSize="11.0sp" />
+                   
+                </LinearLayout>
+            </LinearLayout>
+            </LinearLayout>
+           </ScrollView>
+
+</sdw.com.MoniterView>

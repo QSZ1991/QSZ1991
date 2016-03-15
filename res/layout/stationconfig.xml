@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/statCnfig"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="10dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/suoshudiqu"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/countyName"
+            android:layout_width="58dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_weight="0.00"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12.0dip"
+            android:gravity="right"
+            android:text="@string/mod1"
+            android:textSize="10.0sp" />
+
+        <ToggleButton
+            android:id="@+id/togglemod"
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:background="@drawable/btn_toggle"
+            android:disabledAlpha="?android:disabledAlpha"
+            android:textOff="@null"
+            android:textOn="@null" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="right"
+            android:text="@string/mod2"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/manager"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/administratorName"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="14dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/controlID"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/controlId"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/about"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/shortTitle"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/mingcheng"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/dz"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/address"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/decP"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/reduceP"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/weidu"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/coordinateX"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/jindu"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/coordinateY"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/Txiax"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection1dl"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/Tshangx"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection1ul"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/PHxiax"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection2dl"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/PHshangx"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection2ul"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/ORPxiax"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection3dl"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/ORPshangx"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection3ul"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/LSxiax"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection4dl"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/LSshangx"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection4ul"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/DOxiax"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection5dl"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/DOshangx"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection5ul"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="23dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/liulxia"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection6dl"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10.0dip"
+            android:gravity="right"
+            android:text="@string/liulshang"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/detection6ul"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/geshan"
+            android:textSize="7.5sp" />
+
+        <EditText
+            android:id="@+id/gratingDays"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5.0dip"
+            android:gravity="right"
+            android:text="@string/incben"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/waterflow"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+      
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="23.0dip"
+        android:layout_marginTop="4dip"
+        android:orientation="horizontal" >
+<TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="7.0dip"
+            android:gravity="right"
+            android:text="@string/decNH3"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/reduceNH3N"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0.0dip"
+            android:gravity="right"
+            android:text="@string/decCod"
+            android:textSize="10.0sp" />
+
+        <EditText
+            android:id="@+id/reduceCOD"
+            android:layout_width="60dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dip"
+            android:inputType="text"
+            android:textSize="10.0sp" />
+    </LinearLayout>
+
+    
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dip"
+        android:layout_marginTop="10dip"
+        android:text="@string/submit"
+        android:textSize="10.0sp" />
+
+</LinearLayout>

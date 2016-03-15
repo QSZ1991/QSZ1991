@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/colu"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:text="@string/colu"
+        android:focusable="false"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <sdw.com.others.InterceptScrollContainer
+        android:id="@+id/scroollContainter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"         
+        android:layout_toRightOf="@id/colu"
+        android:focusable="false" >
+
+        <sdw.com.others.MyHScrollView
+            android:id="@+id/horizontalScrollView0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="false"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:focusable="false"  
+                android:orientation="horizontal"
+                >
+				
+                <View 
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lineColor"
+                    android:visibility="visible"
+                    />
+                <TextView
+                    android:id="@+id/colu1"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/colu1"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    />
+				<View 
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lineColor"
+                    android:visibility="visible"/>
+                <TextView
+                    android:id="@+id/colu2"
+                    android:layout_width="200dp"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:text="@string/colu2"
+                    android:gravity="center"
+                    android:textAppearance="?android:attr/textAppearanceMedium" 
+                    />
+				<View 
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lineColor"
+                    android:visibility="visible"/>
+
+				<TextView
+				    android:id="@+id/colu3"
+				    android:layout_width="85dp"
+				    android:layout_height="30dp"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="5dp"
+				    android:gravity="center"
+				    android:text="@string/colu3"
+				    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <View 
+                    android:layout_width="0.5dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/lineColor"
+                    android:visibility="visible"/>
+
+				<TextView
+				    android:id="@+id/colu4"
+				    android:layout_width="85dp"
+				    android:layout_height="30dp"
+				    android:layout_marginLeft="5dp"
+				    android:layout_marginRight="5dp"
+				    android:gravity="center"
+				    android:text="@string/colu4"
+				    android:textAppearance="?android:attr/textAppearanceMedium" />
+               
+            </LinearLayout>
+        </sdw.com.others.MyHScrollView>
+    </sdw.com.others.InterceptScrollContainer>
+
+</RelativeLayout>

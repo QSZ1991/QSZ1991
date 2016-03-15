@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">智慧水务</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="TVid">账号：</string>
+    <string name="etusern">请输入账号</string>
+    <string name="TVpassword">密码：</string> 
+    <string name="etpwd">请输入密码</string> 
+    <string name="btnlogin">登录</string>
+    <string name="btnback">返回</string> 
+    <string name="tv_title">商达水务</string> 
+    <string name="btnserch">站点查询</string>
+    <string name="btnmoniter">站点监控</string>
+    <string name="btnconfig">系统配置</string>
+    <string name="btnrunrecord">设备运行纪录</string>
+    <string name="btncheckrecord">水质监测纪录</string>
+    <string name="bn"> </string> 
+    <string name="btnc">查询区县 </string> 
+    <string name="textviewcounty">请选择区县名称 </string> 
+    <string name="btns">查询站点 </string> 
+    <string name="textviewstation">请选择站点名称 </string> 
+    
+    <string name="column">监测时间</string>
+    <string name="column1">曝气机</string>
+    <string name="column2">污水泵</string>
+    <string name="column3">回流泵</string>
+    <string name="column4">Flow</string>
+    <string name="column5">液位</string>
+    
+    <string name="colum">监测时间</string>
+    <string name="colum1">温度</string>
+    <string name="colum2">PH</string>
+    <string name="colum3">ORP</string>
+    <string name="colum4">LS</string>
+    <string name="colum5">DO</string>
+    <string name="colum6">流量</string>
+    
+    <string name="colu">预警时间</string>
+    <string name="colu1">站点</string>
+    <string name="colu2">预警信息</string>
+    <string name="colu3">处理状态</string>
+    <string name="colu4">管理员</string>
+    
+    <string name="rggeshan">人工格栅</string>
+    <string name="lastTime">上次确认格栅时间</string>
+   <string name="currentstate">当前状态</string>
+   <string name="intervaldate">格栅间隔天数</string>
+   <string name="alarm">警报操作</string>
+   <string name="removealarm">解除警报</string>
+   
+   <string name="baoqiji">曝气机</string>
+   <string name="devicecontrol">设备当前控制状态</string>
+   <string name="devicestate">设备当前状态</string> 
+   <string name="wushuibang">污水泵</string>
+   <string name="huiliubang">回流泵</string>
+   <string name="temperature">T(°C)</string>
+   <string name="meter">仪表取值范围</string>
+   <string name="meterstate">仪表当前值</string>
+   <string name="ph">PH(PH)</string>
+   <string name="orp">ORP(MV)</string>
+   <string name="ls">LS</string>
+   <string name="doMGL">DO(MG/L)</string>
+   <string name="submit">提交</string>
+   <string name="tab_item1">站点监控</string>
+   <string name="tab_item2">设备远程控制</string>
+   <string name="countycfg">区县配置</string>	
+   <string name="admtorcfg">管理员配置</string>
+   <string name="stationcfg">站点配置</string>
+   <string name="btnAdd">增加</string>
+   <string name="mod1">查看模式</string>
+   <string name="mod2">编辑模式</string>
+    <string name="diqu">上级地区：</string>
+    <string name="diquming">无锡</string> 
+    <string name="countym">地区名称：</string>
+    <string name="fuzeren">负责人：</string>
+    <string name="phone">联系电话：</string>
+    <string name="about">简介：</string>
+    <string name="suoshudiqu">所属地区：</string>
+    <string name="name1">姓名：</string>
+    <string name="address">通讯地址：</string>
+    <string name="mail">电子邮件：</string>
+    <string name="manager">管理员：</string>
+    <string name="controlID">控制系统ID：</string> 
+    <string name="mingcheng">名称：</string>
+    <string name="dz">地址：</string> 
+     <string name="weidu">纬度：</string> 
+     <string name="jindu">经度：</string> 
+     <string name="Txiax">T下限：</string> 
+     <string name="Tshangx">T上限：</string> 
+     <string name="PHxiax">PH下限：</string> 
+     <string name="PHshangx">PH上限：</string> 
+     <string name="ORPxiax">ORP下限：</string> 
+     <string name="ORPshangx">ORP上限：</string> 
+     <string name="LSxiax">LS下限：</string> 
+     <string name="LSshangx">LS上限：</string> 
+     <string name="DOxiax">DO下限：</string> 
+     <string name="DOshangx">DO上限：</string> 
+     <string name="liulxia">流量下限：</string> 
+     <string name="liulshang">流量上限：</string> 
+     <string name="incben">提升泵流量：</string> 
+    <string name="geshan">人工格栅（天）：</string>  
+     <string name="decCod">削减COD流量：</string> 
+     <string name="decNH3">削减NH3-N值：</string> 
+     <string name="decP">削减P值：</string> 
+    <string name="setting">配置</string>  
+         
+    <string name="title_activity_main">MainActivity</string>
+</resources>

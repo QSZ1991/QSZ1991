@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+	android:id="@+id/countyconfig"
+    android:orientation="vertical" >
+    
+        <LinearLayout
+            android:id="@+id/mon_"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="100.0dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25.0dip"
+                android:gravity="right"
+                android:text="@string/mod1"
+                android:textSize="15.0sp" />
+
+            <ToggleButton
+                android:id="@+id/togglemod"
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:background="@drawable/btn_toggle"
+                android:disabledAlpha="?android:disabledAlpha"
+                android:textOff="@null"
+                android:textOn="@null" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5.0dip"
+                android:gravity="right"
+                android:text="@string/mod2"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/diqu"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:gravity="center"
+                android:text="@string/diqu"
+                android:textSize="15.0sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dip"
+                android:gravity="center"
+                android:text="@string/diquming"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/county"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:gravity="center"
+                android:text="@string/countym"
+                android:textSize="15.0sp" />
+
+            <EditText
+                android:id="@+id/countyming"
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_weight="0.00"
+                android:inputType="text"
+                android:textSize="15.0sp" >
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fuzere"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:gravity="center"
+                android:text="@string/fuzeren"
+                android:textSize="15.0sp" />
+
+            <EditText
+                android:id="@+id/fuzeren"
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dip"
+                android:inputType="text"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/phon"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:gravity="center"
+                android:text="@string/phone"
+                android:textSize="15.0sp" />
+
+            <EditText
+                android:id="@+id/Rphone"
+                android:layout_width="90dip"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:inputType="phone"
+                android:textSize="15.0sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/about1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dip"
+            android:layout_weight="0.00"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dip"
+                android:layout_marginTop="50dip"
+                android:gravity="center"
+                android:text="@string/about"
+                android:textSize="15.0sp" />
+
+            <EditText
+                android:id="@+id/about"
+                android:layout_width="165dp"
+                android:layout_height="100dp"
+                android:background="#CCCCCC"
+                android:gravity="left|top"
+                android:inputType="textMultiLine"
+                android:minLines="6" >
+            </EditText>
+        </LinearLayout>
+        
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="60dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="150dip"
+            android:layout_marginTop="25dip"
+            android:text="@string/submit"
+            android:textSize="15.0sp" />
+</LinearLayout>

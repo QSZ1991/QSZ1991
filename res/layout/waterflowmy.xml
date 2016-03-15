@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+   
+
+    <EditText
+        android:id="@+id/txttime1"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="60dip"
+        android:focusableInTouchMode="false"
+        android:hint="请选择时间" />
+
+    <TextView
+        android:id="@+id/flowtitle1"
+        android:layout_width="160dip"
+        android:layout_height="18dip"
+        android:layout_below="@+id/txttime1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dip"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <HorizontalScrollView
+        android:id="@+id/flowscroll1"
+        android:layout_width="fill_parent"
+        android:layout_height="320dip"
+        android:layout_alignParentBottom="true" 
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <sdw.com.MyChartView
+                android:id="@+id/flowlist1"
+                android:layout_width="300dip"
+                android:layout_height="match_parent"
+                android:background="@color/white" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

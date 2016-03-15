@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/linStation"
+    android:layout_height="match_parent"    
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+    <EditText
+        android:id="@+id/edtStation"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dip"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnS"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dip"
+        android:text="@string/btns" />
+    
+    <TextView
+        android:id="@+id/textViewstation"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/textviewstation"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listS"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_margin="10dip"
+        android:layout_weight="0.34"
+        android:divider="@null"
+        android:cacheColorHint="@null"   
+        android:listSelector="@drawable/bg_listview"  
+        android:background="@drawable/bg_listview"  
+        android:gravity="center_vertical" />
+
+</LinearLayout>

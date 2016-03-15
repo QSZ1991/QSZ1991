@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="work.sdw"
+    android:versionCode="1"
+    android:versionName="1.0" >
+ 
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="14" />
+      <uses-permission android:name="android.permission.INTERNET" > </uses-permission>
+      <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"></uses-permission>  
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            
+            android:name="sdw.com.StartActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="sdw.com.LoginActivity"></activity>
+        <activity android:name="sdw.com.FunActivity"> </activity>
+        <activity android:name="sdw.com.DeviceActivity"> </activity>
+        <activity android:name="sdw.com.CountyActivity"> </activity>
+        <activity android:name="sdw.com.StationActivity"> </activity>
+        <activity android:name="sdw.com.RunRecordDate"> </activity>
+        <activity android:name="sdw.com.CheckRecordDate"> </activity>
+        <activity android:name="sdw.com.others.InterceptScrollContainer"> </activity>
+        <activity android:name="sdw.com.others.MyHScrollView"> </activity>
+        <activity android:name="sdw.com.StationmoniterActivity"> </activity>
+       <activity android:name="sdw.com.WarnActivity"> </activity>
+       <activity android:name="sdw.com.SysconfigActivity"> </activity>
+       <activity android:name="sdw.com.ListConfigActivity"> </activity>
+       <activity android:name="sdw.com.StationConfig"> </activity>
+       <activity android:name="sdw.com.CountyConfig"> </activity>
+       <activity android:name="sdw.com.AdminConfig"> </activity>
+       <activity android:name="sdw.com.LineViewActivity"> </activity>
+       <activity android:name="sdw.com.WaterflowActivity"> </activity> 
+       <activity android:name="sdw.com.WaterFlowMY"> </activity> 
+    </application>
+
+</manifest>

@@ -1,0 +1,426 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rela"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10.0dip"
+        android:layout_marginRight="10.0dip"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@drawable/regist_bg_circle"
+            android:paddingLeft="12dip"
+            android:paddingRight="12dip" >
+
+            <Button
+                android:id="@+id/Tyx"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:background="@color/orange_line"
+                android:text="运行记录" />
+
+            <TextView
+                android:id="@+id/titleS"
+                android:layout_width="wrap_content"
+                android:layout_height="30dip"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:background="#00000000"
+                android:textColor="@color/red" />
+
+            <Button
+                android:id="@+id/Tsz"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:text="监测记录"               
+                android:background="@color/orange_line"
+                android:textColor="@color/black" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/montiter__date"
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TimeTim"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="检测时间" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/timetim"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/TT"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="T(℃)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/tt"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/PHPH"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="PH(ph)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/phph"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ORPORP"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="ORP(mV)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/orporp"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/LSLS"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="LS(LS)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/lsls"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/DODO"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="DO(mg/L)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/dodo"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/M3M3"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="日处理水量(m3)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/m3m3"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/CODCOD"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="日削减COD量(g)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/codcod"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/NH3HNH3H"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="日削减NH3H量(g)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/nh3hnh3h"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="18.0dip"
+            android:gravity="center_vertical"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/PP"
+                android:layout_width="120dip"
+                android:layout_height="18dip"
+                android:layout_marginLeft="20.0dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:text="日削减总P量(g)" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/pp"
+                android:layout_width="160dip"
+                android:layout_height="18dip"
+                android:background="@drawable/view_recordbg"
+                android:gravity="center"
+                android:textColor="#ff000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="300dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" >
+
+        <LinearLayout
+            android:id="@+id/layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/lasayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/psp"
+                    android:layout_width="160dip"
+                    android:layout_height="18dip"
+                    android:gravity="center"
+                    android:text="T(℃)" />
+
+                <sdw.com.MyChartView
+                    android:id="@+id/menulist0"
+                    android:layout_width="600dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/las1yout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/ph12"
+                    android:layout_width="160dip"
+                    android:layout_height="18dip"
+                    android:gravity="center"
+                    android:text="PH(ph)" />
+
+                <sdw.com.MyChartView
+                    android:id="@+id/menulist1"
+                    android:layout_width="300dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/las2ayout"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/OPRo"
+                    android:layout_width="160dip"
+                    android:layout_height="18dip"
+                    android:gravity="center"
+                    android:text="ORP(mV)" />
+
+                <sdw.com.MyChartView
+                    android:id="@+id/menulist2"
+                    android:layout_width="300dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lasayo3ut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/pdodoa"
+                    android:layout_width="160dip"
+                    android:layout_height="18dip"
+                    android:gravity="center"
+                    android:text="LS()" />
+
+                <sdw.com.MyChartView
+                    android:id="@+id/menulist3"
+                    android:layout_width="300dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lasayo4ut"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/pdodoa"
+                    android:layout_width="160dip"
+                    android:layout_height="18dip"
+                    android:gravity="center"
+                    android:text="DO(mg/L)" />
+
+                <sdw.com.MyChartView
+                    android:id="@+id/menulist4"
+                    android:layout_width="300dip"
+                    android:layout_height="match_parent"
+                    android:background="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</RelativeLayout>

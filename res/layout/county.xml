@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:id="@+id/LinCounty"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+ <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_width="0px"
+        android:layout_height="0px"/>
+
+    <EditText
+        android:id="@+id/edtCounty"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dip"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnC"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dip"
+        android:text="@string/btnc" />
+
+    <TextView
+        android:id="@+id/textViewcounty"
+        android:layout_width="200dip"
+        android:layout_height="wrap_content"
+        android:text="@string/textviewcounty"
+        android:textSize="18sp" />
+
+    <ListView
+        android:id="@+id/listC"
+        android:layout_width="wrap_content"
+        android:layout_height="0dip"
+        android:layout_margin="10dip"
+        android:layout_weight="0.34"
+        android:divider="@null"
+        android:cacheColorHint="@null"   
+        android:listSelector="@drawable/bg_listview"  
+        android:background="@drawable/bg_listview"  
+        android:gravity="center_vertical" />
+
+</LinearLayout>

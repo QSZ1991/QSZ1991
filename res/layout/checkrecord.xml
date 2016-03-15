@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:paddingLeft="12dip"
+        android:background="@drawable/regist_bg_circle"
+        android:paddingRight="12dip" >
+
+        <Button
+            android:id="@+id/CRyx"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/orange_line"
+            android:text="设备运行记录" />
+
+        <Button
+            android:id="@+id/CRt"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:background="@color/product_options_active"
+            android:text="监测数据统计图"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/hea2d1"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="30dp" >
+
+        <include
+            android:id="@+id/head1"
+            android:layout_height="match_parent"
+            layout="@layout/item1" />
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/hea2d1"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/lineColor"
+        android:dividerHeight="0.5dp" >
+    </ListView>
+
+</RelativeLayout>
